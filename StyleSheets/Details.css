@@ -1,0 +1,8 @@
+﻿#imgReturn{
+    transition: 0.3s;
+}
+
+    #imgReturn:hover {
+        opacity: 0.3;
+        transition: 0.3s;3
+    }

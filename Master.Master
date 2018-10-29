@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="Hackathon2.Images.Master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>City Snap</title>
+    <link type="text/css" rel="stylesheet" href="StyleSheets/Master.css" />
+    <link rel="icon" href="Images/Logo.png" />
+        
+    <script>
+    </script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body onload="load()">
+    <form id="form1" runat="server">
+        <div id="divBody">
+            <asp:ContentPlaceHolder ID="Body" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

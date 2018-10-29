@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F54CDF72155D2EA00AA8627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F54CDF62155D2EA00AA8627 /* AppDelegate.swift */; };
+		3F54CDFE2155D2EB00AA8627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F54CDFD2155D2EB00AA8627 /* Assets.xcassets */; };
+		3F54CE012155D2EB00AA8627 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F54CDFF2155D2EB00AA8627 /* LaunchScreen.storyboard */; };
+		3F54CE0C2155D2EB00AA8627 /* CitysSnapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F54CE0B2155D2EB00AA8627 /* CitysSnapTests.swift */; };
+		3F54CE172155D2EB00AA8627 /* CitysSnapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F54CE162155D2EB00AA8627 /* CitysSnapUITests.swift */; };
+		3F54CE252155D35E00AA8627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F54CE242155D35E00AA8627 /* Main.storyboard */; };
+		3F54CE2B2155D42900AA8627 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F54CE272155D42900AA8627 /* SettingsViewController.swift */; };
+		3F54CE2C2155D42900AA8627 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F54CE282155D42900AA8627 /* ImageViewController.swift */; };
+		3F54CE2D2155D42900AA8627 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F54CE292155D42900AA8627 /* CameraViewController.swift */; };
+		3F67E52A2155EB520028D582 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F67E5292155EB520028D582 /* GoogleService-Info.plist */; };
+		3F67E52C21560F690028D582 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F67E52B21560F690028D582 /* Extension.swift */; };
+		3F67E52F21560F750028D582 /* BWWalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F67E52D21560F750028D582 /* BWWalkthroughViewController.swift */; };
+		3F67E53021560F750028D582 /* BWWalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F67E52E21560F750028D582 /* BWWalkthroughPageViewController.swift */; };
+		3F67E53221563D4C0028D582 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3F67E53121563D4C0028D582 /* LICENSE */; };
+		3FCCFD10215690D000F29A17 /* BinCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCCFD0F215690D000F29A17 /* BinCategory.swift */; };
+		3FCCFD142156911300F29A17 /* LitterCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCCFD132156911300F29A17 /* LitterCategory.swift */; };
+		3FCCFD162156912400F29A17 /* GraffitiCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCCFD152156912400F29A17 /* GraffitiCategory.swift */; };
+		3FCCFD182156913300F29A17 /* SnowCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCCFD172156913300F29A17 /* SnowCategory.swift */; };
+		3FCCFD1A2156914E00F29A17 /* RoadCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCCFD192156914E00F29A17 /* RoadCategory.swift */; };
+		3FCCFD1C2156915E00F29A17 /* AnimalCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCCFD1B2156915E00F29A17 /* AnimalCategory.swift */; };
+		3FCCFD1E2156918400F29A17 /* WaterCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCCFD1D2156918400F29A17 /* WaterCategory.swift */; };
+		9619CB01ECD47852CB0E7CD8 /* Pods_CitysSnap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A840418A1FDD78E4D0E6BEC4 /* Pods_CitysSnap.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F54CE082155D2EB00AA8627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F54CDEB2155D2EA00AA8627 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F54CDF22155D2EA00AA8627;
+			remoteInfo = CitysSnap;
+		};
+		3F54CE132155D2EB00AA8627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F54CDEB2155D2EA00AA8627 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F54CDF22155D2EA00AA8627;
+			remoteInfo = CitysSnap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FEF0721D8A6781D9B8E9E8D /* Pods-CitysSnap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitysSnap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CitysSnap/Pods-CitysSnap.debug.xcconfig"; sourceTree = "<group>"; };
+		3F54CDF32155D2EA00AA8627 /* CitysSnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitysSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F54CDF62155D2EA00AA8627 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F54CDFD2155D2EB00AA8627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F54CE002155D2EB00AA8627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F54CE022155D2EB00AA8627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F54CE072155D2EB00AA8627 /* CitysSnapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitysSnapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F54CE0B2155D2EB00AA8627 /* CitysSnapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitysSnapTests.swift; sourceTree = "<group>"; };
+		3F54CE0D2155D2EB00AA8627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F54CE122155D2EB00AA8627 /* CitysSnapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitysSnapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F54CE162155D2EB00AA8627 /* CitysSnapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitysSnapUITests.swift; sourceTree = "<group>"; };
+		3F54CE182155D2EB00AA8627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F54CE242155D35E00AA8627 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3F54CE272155D42900AA8627 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3F54CE282155D42900AA8627 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		3F54CE292155D42900AA8627 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		3F67E5292155EB520028D582 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3F67E52B21560F690028D582 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		3F67E52D21560F750028D582 /* BWWalkthroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWWalkthroughViewController.swift; sourceTree = "<group>"; };
+		3F67E52E21560F750028D582 /* BWWalkthroughPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWWalkthroughPageViewController.swift; sourceTree = "<group>"; };
+		3F67E53121563D4C0028D582 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3FCCFD0F215690D000F29A17 /* BinCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinCategory.swift; sourceTree = "<group>"; };
+		3FCCFD132156911300F29A17 /* LitterCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LitterCategory.swift; sourceTree = "<group>"; };
+		3FCCFD152156912400F29A17 /* GraffitiCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraffitiCategory.swift; sourceTree = "<group>"; };
+		3FCCFD172156913300F29A17 /* SnowCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowCategory.swift; sourceTree = "<group>"; };
+		3FCCFD192156914E00F29A17 /* RoadCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadCategory.swift; sourceTree = "<group>"; };
+		3FCCFD1B2156915E00F29A17 /* AnimalCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCategory.swift; sourceTree = "<group>"; };
+		3FCCFD1D2156918400F29A17 /* WaterCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCategory.swift; sourceTree = "<group>"; };
+		51839D9B6F7BF4B70E1E81BF /* Pods_CitysSnapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CitysSnapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD2E6B7C4A16A2492BB3B95 /* Pods-CitysSnap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitysSnap.release.xcconfig"; path = "Pods/Target Support Files/Pods-CitysSnap/Pods-CitysSnap.release.xcconfig"; sourceTree = "<group>"; };
+		A686BED72908524D740BCA07 /* Pods_CitysSnapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CitysSnapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A840418A1FDD78E4D0E6BEC4 /* Pods_CitysSnap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CitysSnap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F54CDF02155D2EA00AA8627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9619CB01ECD47852CB0E7CD8 /* Pods_CitysSnap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F54CE042155D2EB00AA8627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F54CE0F2155D2EB00AA8627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DC6EABF4460B2252365B3E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FEF0721D8A6781D9B8E9E8D /* Pods-CitysSnap.debug.xcconfig */,
+				7AD2E6B7C4A16A2492BB3B95 /* Pods-CitysSnap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3F54CDEA2155D2EA00AA8627 = {
+			isa = PBXGroup;
+			children = (
+				3F54CDF52155D2EA00AA8627 /* CitysSnap */,
+				3F54CE0A2155D2EB00AA8627 /* CitysSnapTests */,
+				3F54CE152155D2EB00AA8627 /* CitysSnapUITests */,
+				3F54CDF42155D2EA00AA8627 /* Products */,
+				2DC6EABF4460B2252365B3E3 /* Pods */,
+				8E796B9B5C766D8B44E5DD97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F54CDF42155D2EA00AA8627 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F54CDF32155D2EA00AA8627 /* CitysSnap.app */,
+				3F54CE072155D2EB00AA8627 /* CitysSnapTests.xctest */,
+				3F54CE122155D2EB00AA8627 /* CitysSnapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F54CDF52155D2EA00AA8627 /* CitysSnap */ = {
+			isa = PBXGroup;
+			children = (
+				3F54CDF62155D2EA00AA8627 /* AppDelegate.swift */,
+				3F67E52B21560F690028D582 /* Extension.swift */,
+				3F54CE282155D42900AA8627 /* ImageViewController.swift */,
+				3F54CE292155D42900AA8627 /* CameraViewController.swift */,
+				3F54CE272155D42900AA8627 /* SettingsViewController.swift */,
+				3F54CE242155D35E00AA8627 /* Main.storyboard */,
+				3F54CDFD2155D2EB00AA8627 /* Assets.xcassets */,
+				3F54CDFF2155D2EB00AA8627 /* LaunchScreen.storyboard */,
+				3F54CE022155D2EB00AA8627 /* Info.plist */,
+				3F67E5292155EB520028D582 /* GoogleService-Info.plist */,
+				3F67E53121563D4C0028D582 /* LICENSE */,
+				3F67E52D21560F750028D582 /* BWWalkthroughViewController.swift */,
+				3F67E52E21560F750028D582 /* BWWalkthroughPageViewController.swift */,
+				3FCCFD0F215690D000F29A17 /* BinCategory.swift */,
+				3FCCFD132156911300F29A17 /* LitterCategory.swift */,
+				3FCCFD152156912400F29A17 /* GraffitiCategory.swift */,
+				3FCCFD172156913300F29A17 /* SnowCategory.swift */,
+				3FCCFD192156914E00F29A17 /* RoadCategory.swift */,
+				3FCCFD1B2156915E00F29A17 /* AnimalCategory.swift */,
+				3FCCFD1D2156918400F29A17 /* WaterCategory.swift */,
+			);
+			path = CitysSnap;
+			sourceTree = "<group>";
+		};
+		3F54CE0A2155D2EB00AA8627 /* CitysSnapTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F54CE0B2155D2EB00AA8627 /* CitysSnapTests.swift */,
+				3F54CE0D2155D2EB00AA8627 /* Info.plist */,
+			);
+			path = CitysSnapTests;
+			sourceTree = "<group>";
+		};
+		3F54CE152155D2EB00AA8627 /* CitysSnapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F54CE162155D2EB00AA8627 /* CitysSnapUITests.swift */,
+				3F54CE182155D2EB00AA8627 /* Info.plist */,
+			);
+			path = CitysSnapUITests;
+			sourceTree = "<group>";
+		};
+		8E796B9B5C766D8B44E5DD97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A840418A1FDD78E4D0E6BEC4 /* Pods_CitysSnap.framework */,
+				51839D9B6F7BF4B70E1E81BF /* Pods_CitysSnapTests.framework */,
+				A686BED72908524D740BCA07 /* Pods_CitysSnapUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F54CDF22155D2EA00AA8627 /* CitysSnap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F54CE1B2155D2EB00AA8627 /* Build configuration list for PBXNativeTarget "CitysSnap" */;
+			buildPhases = (
+				00CEE9D66EDEE0C6533BF96D /* [CP] Check Pods Manifest.lock */,
+				3F54CDEF2155D2EA00AA8627 /* Sources */,
+				3F54CDF02155D2EA00AA8627 /* Frameworks */,
+				3F54CDF12155D2EA00AA8627 /* Resources */,
+				F2691B78B12CD08EA5EFFBF5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CitysSnap;
+			productName = CitysSnap;
+			productReference = 3F54CDF32155D2EA00AA8627 /* CitysSnap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F54CE062155D2EB00AA8627 /* CitysSnapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F54CE1E2155D2EB00AA8627 /* Build configuration list for PBXNativeTarget "CitysSnapTests" */;
+			buildPhases = (
+				3F54CE032155D2EB00AA8627 /* Sources */,
+				3F54CE042155D2EB00AA8627 /* Frameworks */,
+				3F54CE052155D2EB00AA8627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F54CE092155D2EB00AA8627 /* PBXTargetDependency */,
+			);
+			name = CitysSnapTests;
+			productName = CitysSnapTests;
+			productReference = 3F54CE072155D2EB00AA8627 /* CitysSnapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F54CE112155D2EB00AA8627 /* CitysSnapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F54CE212155D2EB00AA8627 /* Build configuration list for PBXNativeTarget "CitysSnapUITests" */;
+			buildPhases = (
+				3F54CE0E2155D2EB00AA8627 /* Sources */,
+				3F54CE0F2155D2EB00AA8627 /* Frameworks */,
+				3F54CE102155D2EB00AA8627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F54CE142155D2EB00AA8627 /* PBXTargetDependency */,
+			);
+			name = CitysSnapUITests;
+			productName = CitysSnapUITests;
+			productReference = 3F54CE122155D2EB00AA8627 /* CitysSnapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F54CDEB2155D2EA00AA8627 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Bamdad Sahraei";
+				TargetAttributes = {
+					3F54CDF22155D2EA00AA8627 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					3F54CE062155D2EB00AA8627 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3F54CDF22155D2EA00AA8627;
+					};
+					3F54CE112155D2EB00AA8627 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3F54CDF22155D2EA00AA8627;
+					};
+				};
+			};
+			buildConfigurationList = 3F54CDEE2155D2EA00AA8627 /* Build configuration list for PBXProject "CitysSnap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F54CDEA2155D2EA00AA8627;
+			productRefGroup = 3F54CDF42155D2EA00AA8627 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F54CDF22155D2EA00AA8627 /* CitysSnap */,
+				3F54CE062155D2EB00AA8627 /* CitysSnapTests */,
+				3F54CE112155D2EB00AA8627 /* CitysSnapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F54CDF12155D2EA00AA8627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F54CE012155D2EB00AA8627 /* LaunchScreen.storyboard in Resources */,
+				3F54CDFE2155D2EB00AA8627 /* Assets.xcassets in Resources */,
+				3F54CE252155D35E00AA8627 /* Main.storyboard in Resources */,
+				3F67E52A2155EB520028D582 /* GoogleService-Info.plist in Resources */,
+				3F67E53221563D4C0028D582 /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F54CE052155D2EB00AA8627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F54CE102155D2EB00AA8627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00CEE9D66EDEE0C6533BF96D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CitysSnap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2691B78B12CD08EA5EFFBF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CitysSnap/Pods-CitysSnap-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CitysSnap/Pods-CitysSnap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F54CDEF2155D2EA00AA8627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F67E52C21560F690028D582 /* Extension.swift in Sources */,
+				3F54CE2C2155D42900AA8627 /* ImageViewController.swift in Sources */,
+				3F67E52F21560F750028D582 /* BWWalkthroughViewController.swift in Sources */,
+				3FCCFD1E2156918400F29A17 /* WaterCategory.swift in Sources */,
+				3F54CDF72155D2EA00AA8627 /* AppDelegate.swift in Sources */,
+				3FCCFD10215690D000F29A17 /* BinCategory.swift in Sources */,
+				3FCCFD1C2156915E00F29A17 /* AnimalCategory.swift in Sources */,
+				3FCCFD142156911300F29A17 /* LitterCategory.swift in Sources */,
+				3F54CE2B2155D42900AA8627 /* SettingsViewController.swift in Sources */,
+				3FCCFD162156912400F29A17 /* GraffitiCategory.swift in Sources */,
+				3FCCFD182156913300F29A17 /* SnowCategory.swift in Sources */,
+				3FCCFD1A2156914E00F29A17 /* RoadCategory.swift in Sources */,
+				3F67E53021560F750028D582 /* BWWalkthroughPageViewController.swift in Sources */,
+				3F54CE2D2155D42900AA8627 /* CameraViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F54CE032155D2EB00AA8627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F54CE0C2155D2EB00AA8627 /* CitysSnapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F54CE0E2155D2EB00AA8627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F54CE172155D2EB00AA8627 /* CitysSnapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F54CE092155D2EB00AA8627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F54CDF22155D2EA00AA8627 /* CitysSnap */;
+			targetProxy = 3F54CE082155D2EB00AA8627 /* PBXContainerItemProxy */;
+		};
+		3F54CE142155D2EB00AA8627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F54CDF22155D2EA00AA8627 /* CitysSnap */;
+			targetProxy = 3F54CE132155D2EB00AA8627 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F54CDFF2155D2EB00AA8627 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F54CE002155D2EB00AA8627 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F54CE192155D2EB00AA8627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F54CE1A2155D2EB00AA8627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F54CE1C2155D2EB00AA8627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FEF0721D8A6781D9B8E9E8D /* Pods-CitysSnap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DTKMEHHRY;
+				INFOPLIST_FILE = CitysSnap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Elevate.CitysSnap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F54CE1D2155D2EB00AA8627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AD2E6B7C4A16A2492BB3B95 /* Pods-CitysSnap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DTKMEHHRY;
+				INFOPLIST_FILE = CitysSnap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Elevate.CitysSnap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F54CE1F2155D2EB00AA8627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DTKMEHHRY;
+				INFOPLIST_FILE = CitysSnapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bamdad.CitysSnapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CitysSnap.app/CitysSnap";
+			};
+			name = Debug;
+		};
+		3F54CE202155D2EB00AA8627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DTKMEHHRY;
+				INFOPLIST_FILE = CitysSnapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bamdad.CitysSnapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CitysSnap.app/CitysSnap";
+			};
+			name = Release;
+		};
+		3F54CE222155D2EB00AA8627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DTKMEHHRY;
+				INFOPLIST_FILE = CitysSnapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bamdad.CitysSnapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CitysSnap;
+			};
+			name = Debug;
+		};
+		3F54CE232155D2EB00AA8627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DTKMEHHRY;
+				INFOPLIST_FILE = CitysSnapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bamdad.CitysSnapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CitysSnap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F54CDEE2155D2EA00AA8627 /* Build configuration list for PBXProject "CitysSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F54CE192155D2EB00AA8627 /* Debug */,
+				3F54CE1A2155D2EB00AA8627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F54CE1B2155D2EB00AA8627 /* Build configuration list for PBXNativeTarget "CitysSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F54CE1C2155D2EB00AA8627 /* Debug */,
+				3F54CE1D2155D2EB00AA8627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F54CE1E2155D2EB00AA8627 /* Build configuration list for PBXNativeTarget "CitysSnapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F54CE1F2155D2EB00AA8627 /* Debug */,
+				3F54CE202155D2EB00AA8627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F54CE212155D2EB00AA8627 /* Build configuration list for PBXNativeTarget "CitysSnapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F54CE222155D2EB00AA8627 /* Debug */,
+				3F54CE232155D2EB00AA8627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F54CDEB2155D2EA00AA8627 /* Project object */;
+}

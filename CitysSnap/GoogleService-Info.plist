@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>97486797291-jl63knaofnflcgoeq8vo82hvpe3emdn2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.97486797291-jl63knaofnflcgoeq8vo82hvpe3emdn2</string>
+	<key>API_KEY</key>
+	<string>AIzaSyABt1-61tl2jHlxduEhOtpe0pBsDbRN2N8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>97486797291</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Elevate.CitysSnap</string>
+	<key>PROJECT_ID</key>
+	<string>citysnap-67ae4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>citysnap-67ae4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:97486797291:ios:e9ecc05287255abb</string>
+	<key>DATABASE_URL</key>
+	<string>https://citysnap-67ae4.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,45 @@
+﻿#divButtons {
+}
+
+#buttonToggle, #buttonReload {
+    background-color: white;
+    color: black;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    #buttonToggle:hover #buttonReload:hover {
+        background-color: gray;
+        transition: 1s;
+    }
+
+#divMain {
+    width: 40%;
+    height: 500px;
+    margin: auto;
+}
+
+    #divMain #dataGrid1 {
+        border: 1px solid blue;
+        display: block;
+    }
+
+    #divMain #dataGrid2 {
+        border: 1px solid blue;
+        display: block;
+    }
+
+
+#imgSignout {
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    #imgSignout:hover {
+        opacity: 0.2;
+        transition: 0.3s;
+    }

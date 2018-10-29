@@ -1,0 +1,66 @@
+﻿#mainDiv {
+    width: 700px;
+    height: 300px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+#imgLogo {
+    width: 27%;
+    resize: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#tableLogin {
+    width: 60%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    margin: auto;
+    transform: translate(2%, 0);
+}
+
+    #tableLogin input[type=text], #tableLogin input[type=password] {
+        width: 100%;
+        float: right;
+        display: block;
+        height: 30px;
+        border: none;
+        outline-width: 0px;
+        padding-left: 10px;
+        background-color: black;
+        color: white;
+        border-bottom: 1px solid rgba(255, 255, 255, 1);
+        background-color: transparent;
+    }
+
+    #tableLogin input[type=submit] {
+        width: 80%;
+        height: 35px;
+        padding: 4px 0;
+        display: block;
+        margin: auto;
+        text-align: center;
+        color: #000000;
+        box-shadow: none;
+        border: none;
+        border-radius: 4px;
+        transform: translate(-9%, 0);
+        transition: 0.3s;
+    }
+
+        #tableLogin input[type=submit]:hover {
+            color: white;
+            background-color: #540ed0;
+            border: 1px solid white;
+            transition: 0.4s;
+        }
+
+    #tableLogin tr td:nth-child(1) {
+        width: 90%;
+    }
+
+    #tableLogin tr td:nth-child(2) {
+        width: 10%
+    }
